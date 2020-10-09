@@ -1,0 +1,56 @@
+{
+  "name": "The Watch Co.",
+  "short_name": "The Watch Co.",
+  "start_url": "/",
+  "display": "standalone",
+  "prefer_related_applications": false,
+  "gcm_sender_id": "482941778795",
+  "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID",
+  "icons": [
+	{
+      "src": "mobile-logo/ic_launcher72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+	{
+      "src": "mobile-logo/ic_launcher96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+	{
+      "src": "mobile-logo/ic_launcher120.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "mobile-logo/ic_launcher144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+	{
+      "src": "mobile-logo/ic_launcher180.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+	{
+      "src": "mobile-logo/ic_launcher180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "mobile-logo/ic_launcher192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "mobile-logo/ic_launcher1024.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "mobile-logo/ic_launcher1024.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

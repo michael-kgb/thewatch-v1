@@ -1,0 +1,49 @@
+{
+  "name": "eliberty-bootstrap-iconpicker",
+  "description": "Simple Iconpicker for Bootstrap 3.x",
+  "version": "1.7.0",
+  "keywords": [
+    "Bootstrap",
+    "Iconpicker",
+    "Glyphicon",
+    "Font",
+    "Awesome",
+    "Elusive",
+    "Icons",
+    "Ionicons",
+    "Map",
+    "Icons",
+    "Material",
+    "Design",
+    "Icons",
+    "Octicons",
+    "Typicons",
+    "Weather",
+    "Icons"
+  ],
+  "license": "MIT",
+  "authers": [
+    {
+      "name": "BENARD Patrick",
+      "email": "pbenard@eliberty.fr",
+      "homepage": "http://www.eliberty.fr"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliberty/bootstrap-iconpicker"
+  },
+  "main": "bootstrap-iconpicker/",
+  "homepage": "https://github.com/eliberty/bootstrap-iconpicker",
+  "authors": [
+    "Patrick Benard <pbenard@eliberty.fr>"
+  ],
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

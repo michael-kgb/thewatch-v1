@@ -1,0 +1,9 @@
+Sitemap: https://www.thewatch.co/sitemap.xml 
+
+
+
+# global
+
+User-agent: *
+
+Disallow: /xmlrpc.php

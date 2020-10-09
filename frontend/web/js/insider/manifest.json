@@ -1,0 +1,31 @@
+{
+  "name": "The Watch Co.",
+  "short_name": "The Watch Co.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#206167",
+  "gcm_sender_id": "401755038500",
+  "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID",
+  "icons": [
+    {
+      "src": "mobile-logo/ic_launcher48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+	{
+      "src": "mobile-logo/ic_launcher96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "mobile-logo/ic_launcher144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "mobile-logo/ic_launcher192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

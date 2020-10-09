@@ -1,0 +1,38 @@
+.clear {
+    display: block;
+    clear: both;
+}
+section#breadcrumb {
+    padding-top: 40px;
+}
+
+@media only screen and (min-width : 768px) {
+    .pleft-5-dwpetite {padding-left: 5%; }
+    .carousel.slide-dwpetite {width: 90%; margin-left: 4%; }
+    .row.brand-banner-dwpetite header {margin-top: 0;}
+    section#brand-description-dwpetite {padding-top: 4em; padding-bottom: 10px;}
+    .brand-name-full {font-family: "gotham-light"; font-size: 16px; letter-spacing: 1px;}
+    .brand-description {
+        margin-top: 1%;
+        padding-top: 1%;
+        font-family: "gotham-light";
+        letter-spacing: 1.5px;
+        border: none;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .brand-description {
+        margin-top: 1%;
+        padding-top: 1%;
+        font-family: "gotham-light";
+        letter-spacing: 1.5px;
+        border: none;
+        font-size: 12px;
+    }
+
+    .brand-name-full {font-family: "gotham-light"; font-size: 16px; letter-spacing: 1px; border: none; }
+    .mtop-8em-mobile { margin-top: 8em; }
+}
+

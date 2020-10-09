@@ -1,0 +1,46 @@
+<?php
+
+namespace backend\models;
+
+use Yii;
+
+/**
+ * This is the model class for table "brands".
+ *
+ * @property integer $brand_id
+ * @property string $brand_name
+ * @property string $brand_description
+ * @property string $brand_country
+ * @property string $brand_logo
+ * @property string $brand_logo_hover
+ * @property string $brand_created_date
+ * @property string $brand_status
+ * @property integer $brand_sequence
+ * @property integer $brand_featured
+ */
+class Token extends \yii\db\ActiveRecord
+{
+    /**
+     * @inheritdoc
+     */
+    public static function tableName()
+    {
+        return 'token';
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function rules()
+    {
+        return [
+            //[['brand_name', 'brand_description', 'brand_logo', 'brand_created_date', 'brand_status', 'brand_sequence'], 'required'],
+            //[['brand_description', 'brand_logo', 'brand_logo_hover', 'brand_status'], 'string'],
+            //[['brand_created_date'], 'safe'],
+            //[['brand_sequence', 'brand_featured'], 'integer'],
+            //[['brand_name', 'brand_country'], 'string', 'max' => 50]
+        ];
+    }
+
+   
+}

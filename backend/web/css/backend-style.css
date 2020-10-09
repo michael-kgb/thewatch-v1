@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 Jan 16, 14:56:38
+    Author     : jamhari
+*/
+
+#formAttribute { display: none; }
+
+.badge {
+  background-color: #777;
+}
+
+.tabs-left {
+  margin-top: 3rem;
+}
+
+.nav-tabs {
+  float: left;
+  border-bottom: 0;
+  width: 15%;
+  margin-right: 2%;
+}
+.nav-tabs li {
+  float: none;
+  margin: -1px;
+  border: 1px solid #d2d6de;
+}
+.nav-tabs li a {
+  margin-right: 0;
+  border: 0;
+  background-color: #fff;
+  color: #000;
+}
+.nav-tabs li a:hover {
+    background-color: #eaeaea;
+  color: #000;
+}
+.nav-tabs .glyphicon {
+  color: #fff;
+}
+.nav-tabs .active .glyphicon {
+  color: #333;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: 0;
+  background-color: #00aff0;
+  border: 1px solid #00aff0;
+  color: #fff;
+  border-radius: 0;
+}
+
+.tab-content {
+  margin-left: 45px;
+}
+.tab-content .tab-pane {
+  display: none;
+  background-color: #fff;
+  padding: 1.6rem;
+  overflow-y: auto;
+}
+.tab-content .active {
+  display: block;
+}
+
+.selectable-header, .selected-header { margin: 5% 0;}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.4;
+    filter: alpha(opacity=80);
+}
+
+#loading {
+    width: 50px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -25px;
+}

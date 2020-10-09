@@ -1,0 +1,313 @@
+/*DESKTOP*/
+
+@media only screen and (min-width: 1024px){
+
+    .addtowishlist img{
+        width:40px;
+    }
+
+    .textaddtowishlist{
+        display:none;
+    }
+
+    
+    .circle.love{
+        background-size: 40px !important;        
+    }
+
+    .circle.loved{
+        background-size: 40px !important;        
+    }
+
+    .tag-product-wishlist{
+        right: 25px;
+    }
+
+    .product-wishlist{
+        padding-top:2.5%;
+    }
+
+    .no-wishlist{
+        width:45% !important;
+    }
+
+}
+
+/*MOBILE*/
+@media (max-width:1024px){
+    .addtowishlist img{
+        display: none;
+    }
+
+    .addtowishlist{
+        background: #206167;
+        color: #fff;
+        font-family: "gotham-light" !important;
+        font-weight: 700; 
+        font-size: 0.8em !important;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        padding: 11px 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        border-radius: 20px;
+        display: block;
+
+    }
+
+    .addtowishlist.disabled{
+        opacity: 0.5;
+
+    }
+
+    .circle.love{
+        background-size: 30px !important;        
+    }
+
+    .circle.loved{
+        background-size: 30px !important;        
+    }
+
+    .tag-product-wishlist{
+        right: 25px;
+    }
+}
+
+/*CSSS FOR OUT OF STOCK UI WISHLIST*/
+.out-of-stock-wishlist-caption{
+    position: absolute;
+
+    top: 46%;
+
+    left: 50% !important;
+
+    margin-left: -50px !important;
+
+    font-size: 1.1em;
+
+    color:
+    #fff;
+
+    text-align: center;
+}
+
+.out-of-stock-wishlist{
+    filter: brightness(45%);
+}
+
+.tag-wishlist{
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin-right: 0px;
+    z-index: 1;
+}
+
+
+/*CSS FOR PRODUCT DETAIL*/
+.addtowishlist.initialed{
+    cursor:wait;;
+}
+
+.tag-product-wishlist{
+    float: right;
+    position: absolute;
+    top: 10px;
+    margin-right: 0px;
+    z-index: 1;
+}
+
+.circle.love {
+    background: url(https://thewatch.imgix.net/wishlist/desktop/btn_add_to_wishlist_idle_2.png) no-repeat right;
+}
+ 
+.circle.loved {
+    background: url(https://thewatch.imgix.net/wishlist/desktop/btn_add_to_wishlist_finish_2.png) no-repeat right;
+}
+ 
+
+/*HYBRID*/
+
+.btn_new_list{
+
+    padding:0;
+
+}
+
+
+
+.btn_wishlist_active{
+
+    background-image:url('https://thewatch.imgix.net/wishlist/desktop/btn_list.png') !important;
+
+    background-size:100% 100% !important; 
+
+    color:#fff !important;
+
+    font-weight:bold !important;
+
+    border:0px !important; 
+
+    float:left;
+
+
+
+}
+
+
+
+.btn_wishlist{
+
+    background:transparent;
+
+    border:1px solid #000; 
+
+    color:#000;
+
+    width:140px;
+
+    height:50px;
+
+    line-height: 50px;
+
+    font-weight:normal;
+
+    cursor:pointer;
+
+    text-align:center;
+
+    border-radius:9px;
+
+    float:left;
+
+    position:absolute;
+
+
+
+}
+
+
+
+::-webkit-scrollbar {
+
+    width: 0px;  /* Remove scrollbar space */
+
+    background: transparent;  /* Optional: just make scrollbar invisible */
+
+}
+
+
+
+.wishlist-category{
+
+    position:relative;
+
+    width:100%;
+
+    height:80px;
+
+    overflow-x:scroll;
+
+}
+
+.wrap-wishlist{
+    border: 1px solid #a1a1a1;
+
+    padding: 10px;
+
+    display: grid;
+
+    width: 100%;
+
+    padding: 15px 15px 15px 15px;
+
+    border-radius: 10px;
+}
+
+.round-btn-red{
+    cursor: pointer;
+
+    padding: 10px;
+
+    background: #A01D22;
+
+    color: #fff;
+
+    display: block;
+
+    text-decoration: none;
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    border:0px;
+}
+
+.round-btn-gold{
+    cursor: pointer;
+
+    padding: 10px;
+
+    background: #9E8361;
+
+    color: #fff;
+
+    display: block;
+
+    text-decoration: none;
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    border:0px;
+}
+
+.round-btn-transparent{
+    cursor: pointer;
+
+    padding: 10px;
+
+    background: transparent;
+
+    color: #000;
+
+    display: block;
+
+    border: 1px solid rgb(32,97,103);
+
+    text-decoration: none;
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+#iconCloseModal{
+    width:15px;
+}
+
+.moveWishlistItem{
+    cursor:pointer;
+    
+}
+
+.list-group-item{
+    border-radius:0px !important;
+}
+
+.modal-backdrop{
+    opacity: 0.7 !important;
+}
+
+
+
